@@ -1,9 +1,9 @@
 # Corn_Disease_Recognition
 
 This project is able to determine if a corn plant is infected.
-![](cr.jpg)
-![](gls.jpg)
-![](healthy.jpg)
+![cr](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/226205cd-9a75-4be9-8d6e-0ea3f93fdca2)
+![gls](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/9c445c0d-11f5-4d52-b3e6-e88c6ff9c38a)
+![healthy](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/b1ad73c7-d614-46f2-b4cd-3b02095914ac)
 
 ## The Algorithm
 
@@ -30,7 +30,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 14. Within "sorted" create more folders called "cr", "gls", "healthy", "nclb", "other", "pls", and "sr"
 15. Within the downloaded "Kaggle Dataset" folder create a python file called "csv_sorter.py"
 16. Write the following code into the "csv_sorter.py" file:
-![](csv_code.jpg)
+![csv_code](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/e5e6bff4-8fd9-40fe-992f-a72d46d3e7f0)
 (The file paths in workingDirectory and originFolder will change depending on where your folders are located)
 
 17. Run "csv_sorter.py"
