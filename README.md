@@ -9,6 +9,7 @@ This project is able to determine if a corn plant is infected with common rust, 
 ## The Algorithm
 
 This project run on a resnet model that has been retrained on four sets of data. The first set contains images of healthy corn plants. The remaining sets contain images with corn plants that have been infected with blight, common rust, and grey leaf spot. After the model was trained, I exported it in ONNX format. The program uses imagenet.py to determine if the corn plant is healthy or infected with one of the diseases.
+
 The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset) and [Maize_in_Field_Dataset](https://www.kaggle.com/datasets/b7d58bc6d1a9d63d75ee2bfac914658722887c09affeb801063edfcae2426e42)
 
 ## Running the project
