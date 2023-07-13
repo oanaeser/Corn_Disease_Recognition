@@ -50,7 +50,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 5. Once the model has finished training run the command `python3 onnx_export.py --model-dir=models/corn_disease_detector` to export the model
 6. Exit the docker by pressing  Ctrl + D or by typing `exit`
 
-### Running a single Image
+### Running a Single Image
 
 1. Change directories to `jetson-inference/python/training/classification`
 2. Run the command: `NET=models/corn_disease_detector`
