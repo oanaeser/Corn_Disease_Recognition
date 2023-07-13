@@ -1,4 +1,4 @@
-# Corn_Disease_Recognition
+# Corn Disease Recognition
 
 This project is able to determine if a corn plant is infected with common rust, blight, or grey leaf spot. Additionally, the project can detect healthy corn plants.
 
