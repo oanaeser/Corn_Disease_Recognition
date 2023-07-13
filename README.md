@@ -1,6 +1,7 @@
 # Corn_Disease_Recognition
 
-This project is able to determine if a corn plant is infected.
+This project is able to determine if a corn plant is infected with common rust, blight, or grey leaf spot. Additionally, the project can detect healthy corn plants.
+
 ![cr](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/226205cd-9a75-4be9-8d6e-0ea3f93fdca2)
 ![gls](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/9c445c0d-11f5-4d52-b3e6-e88c6ff9c38a)
 ![healthy](https://github.com/oanaeser/Corn_Disease_Recognition/assets/139392175/b1ad73c7-d614-46f2-b4cd-3b02095914ac)
