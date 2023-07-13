@@ -16,7 +16,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 
 ### Setup
 
-1. Download the [jetson-inference container](https://github.com/dusty-nv/jetson-inference) fromm github and load it onto a jetson-nano.
+1. Download the [jetson-inference container](https://github.com/dusty-nv/jetson-inference) from github and load it onto a jetson-nano.
 2. Navigate to `jetson-inference/python/training/classification/data`
 3. Create a new dircetory called "corn_disease_detection"
 4. Within the "corn_disease_detection" directory create three more directories called "train", "test", and "val"
