@@ -16,7 +16,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 
 ### Setup
 
-1. Download the [jetson-inference container](https://github.com/dusty-nv/jetson-inference) form github and load it onto a jetson-nano.
+1. Download the [jetson-inference container](https://github.com/dusty-nv/jetson-inference) fromm github and load it onto a jetson-nano.
 2. Navigate to `jetson-inference/python/training/classification/data`
 3. Create a new dircetory called "corn_disease_detection"
 4. Within the "corn_disease_detection" directory create three more directories called "train", "test", and "val"
@@ -56,8 +56,8 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 2. Run the command: `NET=models/corn_disease_detector`
 3. Run the command: `DATASET=data/corn_disease_detector`
 4. Run the command: `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/common_rust/Corn_Common_Rust (1278).jpg output.jpg`
-5. There should now be a file in the classification directory called output.jpg (or whatever you named the output)
-6. Display the file to see what the computer has identified the image as
+5. There should now be a file in the classification directory called output.jpg (or whatever you named the output file)
+6. Open the file to see what the computer has identified the image as
 
 Notes:
 
