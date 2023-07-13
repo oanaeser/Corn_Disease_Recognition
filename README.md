@@ -58,7 +58,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 5. There should now be a file in the classification directory called output.jpg (or whatever you named the output)
 6. Display the file to see what the computer has identified the image as
 
-Note:
+Notes:
 
 In step four "Corn_Common_Rust (1278).jpg" can be replaced with any image name in the currently used directory
 
