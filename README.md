@@ -63,7 +63,7 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 
 Notes:
 
-In step four "Corn_Common_Rust (1278).jpg" can be replaced with any image name in the currently used directory
+In step four "Corn_Common_Rust_1278.jpg" can be replaced with any image name in the currently used directory
 
 In step four "common_rust" can be replaced with "healthy", "grey_leaf_spot", or "blight" to test images in their directories
 
@@ -73,7 +73,7 @@ In step four "common_rust" can be replaced with "healthy", "grey_leaf_spot", or 
 2. Run the command: `NET=models/corn_disease_detector`
 3. Run the command: `DATASET=data/corn_disease_detector`
 4. Run the command: `mkdir $DATASET/test_output_blight $DATASET/test_output_common_rust $DATASET/test_output_grey_leaf_spot $DATASET/test_output_healthy`
-5. Now run the command: `imagenet --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/./labels.txt $DATASET/test/healthy DATASET/test_output_healthy`
+5. Now run the command: `imagenet --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/./labels.txt $DATASET/test/healthy $DATASET/test_output_healthy`
 6. The "test_output_healthy" directory should now be full of images
 7. Display the files to find out what the computer thinks they are
 
