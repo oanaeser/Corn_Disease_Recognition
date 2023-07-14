@@ -61,6 +61,8 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 6. There should now be a file in the classification directory called output.jpg (or whatever you named the output file)
 7. Open the file to see what the computer has identified the image as
 
+View a [video demonstration](https://youtu.be/5fjp-S2D9ck) here
+
 Notes:
 
 In step four "Corn_Common_Rust_1278.jpg" can be replaced with any image name in the currently used directory
@@ -77,10 +79,10 @@ In step four "common_rust" can be replaced with "healthy", "grey_leaf_spot", or 
 6. The "test_output_healthy" directory should now be full of images
 7. Display the files to find out what the computer thinks they are
 
+View a [video demonstration](https://youtu.be/hCPVmYaP7v0) here
+
 Notes:
 
 In step five "healthy can be replaced with any other directory in "test" to test the images in that directory.
 
 In step five "test_output_healthy" can be replaced with any other directory to place the output images there instead.
-
-[View a video explanation here](video link)
