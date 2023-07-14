@@ -55,7 +55,8 @@ The datasets I used can be found here: [Corn or Maize Leaf Disease Dataset](http
 1. Change directories to `jetson-inference/python/training/classification`
 2. Run the command: `NET=models/corn_disease_detector`
 3. Run the command: `DATASET=data/corn_disease_detector`
-4. Run the command: `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/common_rust/Corn_Common_Rust (1278).jpg output.jpg`
+4. Run the command: `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/common_rust/Corn_Common_Rust_1278.jpg output.jpg`
+   (In order to test an image it must have any spaces removed)
 5. There should now be a file in the classification directory called output.jpg (or whatever you named the output file)
 6. Open the file to see what the computer has identified the image as
 
@@ -71,7 +72,7 @@ In step four "common_rust" can be replaced with "healthy", "grey_leaf_spot", or 
 2. Run the command: `NET=models/corn_disease_detector`
 3. Run the command: `DATASET=data/corn_disease_detector`
 4. Run the command: `mkdir $DATASET/test_output_blight $DATASET/test_output_common_rust $DATASET/test_output_grey_leaf_spot $DATASET/test_output_healthy`
-5. Now run the command: `imagenet --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/./labels.txt \ $DATASET/test/healthy $DATASET/test_output_healthy`
+5. Now run the command: `imagenet --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/./labels.txt $DATASET/test/healthy DATASET/test_output_healthy`
 6. The "test_output_healthy" directory should now be full of images
 7. Display the files to find out what the computer thinks they are
 
